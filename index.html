@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="initial-content">
+        <h1>A Heartfelt Apology</h1>
+        <p>
+          It's been <span class="days">999</span> days since we last spoke, and
+          the weight of that silence has been crushing me.
+        </p>
+        <p>
+          I know that no amount of words can make up for the time lost, but I
+          hope my sincerity reaches your heart.
+        </p>
+        <p>
+          I miss your laugh, your wisdom, and the way you saw the world in
+          colors I never knew existed.
+        </p>
+        <p class="highlight">
+          I've spent 999 days regretting not reaching out sooner, and I don't
+          want to spend another day without your friendship in my life.
+        </p>
+        <p>
+          I'm not asking for things to be exactly as they were, just for a
+          chance to rebuild what was once special between us.
+        </p>
+        <div class="button-container">
+          <button class="accept-button" onclick="showAcceptance()">
+            Accept Apology
+          </button>
+          <button class="decline-button" onclick="showRejection()">
+            Not Ready Yet
+          </button>
+        </div>
+      </div>
+
+      <div class="celebration-content">
+        <h1>Thank You! ❤️</h1>
+        <div class="emoji">🎉</div>
+        <p>Your forgiveness means the world to me.</p>
+        <p>I promise to be the friend you deserve from this day forward.</p>
+        <p class="highlight">
+          Here's to new beginnings and to never taking our friendship for
+          granted again.
+        </p>
+      </div>
+
+      <div class="rejection-content">
+        <h1>I Understand</h1>
+        <div class="emoji">💭</div>
+        <p>I completely respect your feelings and the space you need.</p>
+        <p>Healing takes time, and some wounds run deeper than others.</p>
+        <p class="highlight">
+          Just know that whenever you're ready, I'll be here.
+        </p>
+        <button class="second-chance-btn" onclick="showInitialContent()">
+          Actually, let's talk
+        </button>
+      </div>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="main.js"></script>
+  </body>
+</html>
